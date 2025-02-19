@@ -1,0 +1,46 @@
+
+.gradient-bg {
+    background: linear-gradient(135deg, #007bff, #ff9800, #ffeb3b);
+    background: linear-gradient(to right, blue, orange, yellow);
+    color: white;
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    height: 100vh;
+}
+
+/* Animation for moving gradient */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Stylish Card */
+.card {
+    border-radius: 15px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+.btn-danger {
+    background-color: #dc3545;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-secondary {
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+body {
+    
+}
+
